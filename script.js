@@ -21,11 +21,12 @@ function efectoHabilidades(){
     var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
     if(distancia_skills >= 300){
         let habilidades = document.getElementsByClassName("progreso");
-        habilidades[0].classList.add("htmlcss");
+        
+        habilidades[0].classList.add("Android");
         habilidades[1].classList.add("Java");
-        habilidades[2].classList.add("Android");
-        habilidades[3].classList.add("Javascript");
-        habilidades[4].classList.add("kotlin");
+        habilidades[2].classList.add("kotlin");
+        habilidades[3].classList.add("Javascript");        
+        habilidades[4].classList.add("htmlcss");
     }
 }
 
